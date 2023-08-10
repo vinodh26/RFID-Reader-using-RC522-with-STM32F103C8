@@ -169,3 +169,4 @@ uint8_t RC522_Request(uint8_t* tagType)
     HAL_GPIO_WritePin(RC522_CS_GPIO_Port, RC522_CS_Pin, GPIO_PIN_RESET);
 
     // Send the request command over
+}
